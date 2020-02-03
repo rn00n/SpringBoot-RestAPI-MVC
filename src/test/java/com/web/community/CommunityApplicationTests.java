@@ -1,10 +1,10 @@
-package com.community.rest;
+package com.web.community;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RestApplicationTests {
+class CommunityApplicationTests {
 
     @Test
     void contextLoads() {

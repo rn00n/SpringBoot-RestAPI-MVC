@@ -3,19 +3,19 @@ spring:
     url: jdbc:mysql://localhost:3306/example?serverTimezone=UTC&characterEncoding=UTF-8
     username: root
     password: 1234
-    driver-class-name: com.mysql.jdbc.Driver
-#  jpa:
-#    hibernate:
-#      ddl-auto: create
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
   h2:
     console:
       enabled: false
       path: /console
-#  devtools:
-#    livereload:
-#      enabled: true
-#  thymeleaf:
-#      cache: false
+  devtools:
+    livereload:
+      enabled: true
+  thymeleaf:
+      cache: false
   security:
     oauth2:
       client:
